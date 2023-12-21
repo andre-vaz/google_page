@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    background-color: white;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    transition-duration: 0.5;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.top_page > img{
+    height: 48px;
+    width: 48px;
+    cursor: pointer;
+}
+.top_page{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    align-items: center;
+    position: fixed;
+}
+main{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    position: static;
+    top: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#google{
+    width: 272px;
+    height: 92px;
+}
+
+
+.searchbar > img {
+    width: 40px;
+    height: 40px;
+}
+.searchbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(221, 214, 214, 0.808);
+    border-radius: 25px;
+    width: 500px;
+    height: 40px;
+    transition-duration: 0.5s;
+}
+
+.searchbar:hover{
+    box-shadow: 2px 2px gray;
+}
+
+.searchbar > input{
+    border: none;
+    outline: none;
+    width: 300px;
+}
+
+#lupa, #teclado, #mic{
+    height: 20px;
+    width: 20px;
+}
+
+#lupa{
+    position: relative;
+    left: 15px;
+}
+
+#teclado{
+    position: relative;
+    right: -15px;
+    cursor: pointer;
+}
+#mic{
+    position: relative;
+    right: 15px;
+    cursor: pointer;
+}
+
+.searchbutton{
+    display: flex;
+    gap: 50px;
+}
+
+.searchbutton button{
+    background-color: rgba(227, 232, 236, 0.322);
+    font-size: 15px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.searchbutton button:hover{
+    border: 1px solid rgba(227, 232, 236, 0.637);
+    cursor: pointer;
+}
+
+#span{
+    color: blue;
+}
+
+.top_footer{
+    height: 40px;
+}
+
+.top_footer > p{
+    padding: 10px 20px;
+}
+
+.middle_footer{
+    height: 40px;
+    text-align: center;
+}
+
+.bottom_footer{
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav1, .nav2{
+    display: flex;
+    gap: 25px;
+}
+
+footer *{
+    background-color: rgba(231, 229, 229, 0.733);
+    color: rgb(112, 112, 112);
+}
+
